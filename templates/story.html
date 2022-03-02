@@ -1,0 +1,7 @@
+{%extends 'home.html'%}
+{% block title%}Story{%endblock%}
+{%block content%}
+<div class="container">
+    <h2>{{story.generate(answers)}}</h2>
+</div>
+{%endblock%}

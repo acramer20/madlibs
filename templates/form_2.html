@@ -1,0 +1,26 @@
+{%extends 'home.html'%}
+{%block title%}Form{%endblock%}
+{%block content%}
+<div class="container">
+<form action="/story_2">
+<div class="inputs">
+<input id="place" type="text" placeholder="Place" name="place">
+</div>
+<div class="inputs">
+<input id="noun" type="text" placeholder="Noun" name="noun">
+</div>
+<div class="inputs">
+<input id="verb" type="text" placeholder="Verb" name="verb">
+</div>
+<div class="inputs">
+<input id="adjective" type="text" placeholder="Adjective" name="adj">
+</div>
+<div class="inputs">
+<input id="plural_noun" type="text" placeholder="Plural Noun" name="plural_noun">
+</div>
+<div class="inputs">
+<button>Submit</button>
+</div>
+</form>
+</div>
+{%endblock%}
